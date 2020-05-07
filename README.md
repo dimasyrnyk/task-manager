@@ -2,11 +2,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Task Manager
 
-It's a simple task manager created on React & Redux, where you can add new task / edit avialable task / delete task / share task with another user, who has account.
-Every task has title / priority / deadline / users who can see or edit task / status.
-There are also sign in and sign up form.
-
-Let's try with existed user
+It's a simple task manager created on React & Redux, where you can add new task / edit avialable task / delete task / share task with another user, who has account.<br />
+Every task has title / priority / deadline / users who can see or edit task / status.<br />
+There are also sign in and sign up form.<br />
+<br />
+Let's try with existed user<br />
 User: admin@gmail.com, Password: drewaq
 
 ## Available Scripts
