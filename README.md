@@ -6,7 +6,8 @@ It's a simple task manager created on React & Redux, where you can add new task 
 Every task has title / priority / deadline / users who can see or edit task / status.
 There are also sign in and sign up form.
 
-User: Admin, Password: drewaq
+Let's try with existed user
+User: admin@gmail.com, Password: drewaq
 
 ## Available Scripts
 
