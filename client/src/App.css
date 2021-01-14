@@ -1,0 +1,251 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=cyrillic');
+
+@import url(https://weloveiconfonts.com/api/?family=fontawesome);
+
+@import url(https://meyerweb.com/eric/tools/css/reset/reset.css);
+
+/* ---------- FONTAWESOME ---------- */
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+/* ---------- GENERAL ---------- */
+
+body {
+	background-color: #fff;
+	color: #606468;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+  line-height: 1.5em;
+}
+
+.app {
+	margin: 0 auto;
+	max-width: 964px;
+}
+
+a {
+	color: #666666;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #61dafb;
+}
+
+input {
+	border: none;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+	padding: 0;
+	-webkit-appearance: none;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+.clearfix { *zoom: 1; }  /* For IE 6/7 */
+.clearfix:before, .clearfix:after {
+	display: table;
+	content: "";
+}
+.clearfix:after { clear: both; }
+
+
+
+
+/* ---------- SIGN IN & SIGN UP FORMS ---------- */
+
+.user-form-size {
+	margin: 50px auto;
+	width: 280px;
+}
+
+.user-form .input_icon {
+	background-color: #d9d9d9;
+	border-radius: 3px 0px 0px 3px;
+	-moz-border-radius: 3px 0px 0px 3px;
+	-webkit-border-radius: 3px 0px 0px 3px;
+	color: #000000;
+	display: block;
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 50px;
+}
+
+.user-form form input {
+	height: 50px;
+	outline:none;
+}
+
+.user-form form input[type="text"], input[type="password"] {
+	background-color: #e6e6e6;
+	border-radius: 0px 3px 3px 0px;
+	-moz-border-radius: 0px 3px 3px 0px;
+	-webkit-border-radius: 0px 3px 3px 0px;
+	color: #000000;
+	font-size: 16px;
+	margin-bottom: 1em;
+	padding: 0 16px;
+	width: 198px;
+}
+
+.user-form form input:focus {
+	color:#000000;
+}
+
+.user-form .wrapper {
+	text-align: center;
+}
+
+.user-form .link_icon {
+	padding-left: 5px;
+}
+
+.formErrors p {
+  margin: -5px 0 5px 0;
+}
+
+/* ---------- BUTTONS ---------- */
+.button {
+	border: 2px solid #61dafb;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background-color: #61dafb;
+	color: #fff;
+	font-weight: bold;
+	margin-bottom: 2em;
+	text-transform: uppercase;
+	cursor:pointer;
+}
+
+.button:hover {
+	background-color: #fff;
+	color: #61dafb;
+}
+
+.button-form  {
+	width: 280px;
+}
+
+.button-add {
+	width: 100px;
+}
+
+
+
+/* ---------- HEADER ---------- */
+header {
+	display: flex;
+	justify-content: space-between;
+	margin: 5px;
+	padding: 20px;
+}
+
+header h1 {
+	font-size: calc(12px + 3vmin);
+	font-weight: bold;
+	letter-spacing: 1px;
+	line-height: 1;
+	text-align: center;
+}
+
+header h1 a {
+	color: #61dafb;
+}
+
+header nav {
+	text-align: right;
+}
+
+header nav li {
+	margin: 5px 0;
+}
+
+
+
+/* ---------- MAIN ---------- */
+.alert {
+	width: 100%;
+	padding: 15px 30px;
+	margin: 10px auto;
+	font-size: 16px;
+	text-align: center;
+	color: black;
+	border-radius: 4px;
+}
+
+.alert_red {
+	background-color: #ffe6e6;
+}
+
+.alert_green {
+	background-color: #d6f5d6;
+}
+
+main {
+  min-height: 65vh;
+}
+
+.home {
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.home h2 {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 20px 0;
+}
+
+
+
+/* ---------- FOOTER ---------- */
+footer {
+	display: flex;
+	justify-content: space-evenly;
+	min-height: 10vh;
+	margin-top: 20px;
+}
+
+
+/* ---------- MEDIA SCREEN -- MOBILE ---------- */
+@media (max-width: 600px){
+	.user-form form input[type="text"], input[type="password"] {
+		font-size: 16px;
+	}
+	.home {
+		width: 90%;
+	}
+}
+
+/* ---------- MEDIA SCREEN -- TABLET ---------- */
+@media screen and (min-width: 601px) {
+	header h1 {
+		margin-left: 20px;
+	}
+	.home {
+		width: 80%;
+	}
+}
+
+/* ---------- MEDIA SCREEN -- DESKTOP ---------- */
+@media screen and (min-width: 965px) {
+	header h1 {
+		margin-left: 20px;
+	}
+	.home {
+		width: 70%;
+	}
+}

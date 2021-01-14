@@ -1,0 +1,195 @@
+/* ---------- MEDIA SCREEN -- MOBILE ---------- */
+@media (max-width: 600px){
+    .task-manager {
+        width: 100%;
+    }
+    .task-manager__item {
+        padding: 12px 0;
+    }
+    .task-manager__checkbox,
+    .task-manager__checkbox {
+        margin-left: 15px;
+    }
+    .task-manager__priority,
+    .task-manager__users {
+        display: none;
+    }
+    .task-manager__deadline {
+        width: 80px;
+    }
+    .task-manager__status {
+        width: 100px;
+    }
+}
+
+
+/* ---------- MEDIA SCREEN -- TABLET ---------- */
+@media screen and (min-width: 601px){
+    .task-manager {
+        min-width: 600px;
+        max-width: 700px;
+    }
+    .task-manager__item {
+        padding: 12px 0;
+    }
+    .task-manager__deadline {
+        width: 100px;
+    }
+    .task-manager__status {
+        width: 100px;
+    }
+}
+
+
+/* ---------- MEDIA SCREEN -- DESKTOP ---------- */
+@media screen and (min-width: 965px) {
+    .task-manager {
+        width: 700px;
+    }
+    .task-manager__item {
+        padding: 8px 0;
+    }
+    .task-manager__deadline {
+        width: 120px;
+    }
+    .task-manager__status {
+        width: 120px;
+    }
+}
+
+
+
+.task-manager {
+    margin: 0 auto;
+    background-color: white;
+}
+
+.task-manager__control-panel {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.task-manager__header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #999999;
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+.task-manager__list {
+	color: #666666;
+	margin: 0 auto;
+}
+
+.task-manager__item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #999999;
+}
+
+.task-manager__checkbox,
+.task-manager__checkbox {
+    width: 30px;
+    margin-right: 10px;
+	-webkit-appearance: checkbox;
+}
+
+.task-manager__name {
+    flex: 2;
+}
+
+.task-manager__priority {
+	width: 60px;
+}
+
+.task-manager__priority,
+.task-manager__deadline,
+.task-manager__users,
+.task-manager__status {
+    text-align: center;
+}
+
+.task-manager__users {
+    height: 21px;
+	width: 130px;
+}
+
+.task-manager__avatar {
+    width: 20px;
+    margin: 0 3px;
+}
+
+.task-manager__checkbox:checked + .task-item {
+    background-color: grey;
+}
+
+.task-manager__remove {
+	width: 5%;
+    text-align: right;
+}
+
+.task-manager__remove-button {
+	font-size: 18px;
+	background-color: #2c3338;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	color: #fff
+}
+
+.task-manager__remove-button:hover {
+	background-color: #515861;
+}
+
+.control__button {
+    font-size: 14px;
+    background-color: #fff;
+    color: #61dafb;
+    border: 2px solid #61dafb;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 5px 10px;
+  }
+  
+  .control__button:hover {
+    background-color: #61dafb;
+    color: #fff;
+  }
+  .control__button:active:focus { outline: none; }
+
+
+
+/* ---------- BACKGROUND COLORS ---------- */
+.Medium {
+    background-color: #f6a435;
+    color: #fff;
+}
+
+.High {
+    background-color: #3779cc;
+    color: #fff;
+}
+
+.Low {
+    background-color: #81929d;
+    color: #fff;
+}
+
+
+/* ---------- FONT COLORS ---------- */
+.Stuck {
+    color: #d23437;
+}
+
+.Work-on-it {
+    color: #f27720;
+}
+
+.Done {
+    color: #1fa227;
+}
+
+.New {
+    color: #3678cc;
+}

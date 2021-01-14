@@ -1,0 +1,5 @@
+{
+    "port": 5000,
+    "jwtSecret": "new truskavets app",
+    "mongoUrl": "mongodb+srv://admin:Ad20mIn20@cluster0-fik0w.mongodb.net/task-manager?retryWrites=true&w=majority"
+}
