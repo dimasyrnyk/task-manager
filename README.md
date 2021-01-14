@@ -1,8 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## MERN Task Manager
 
-## Task Manager
-
-It's a simple task manager created on React & Redux, where you can add new task / edit avialable task / delete task / share task with another user, who has account.<br />
+It's a simple task manager created on MERN stack (MongoDB, Express, React, NodeJS), where you can add new task / edit avialable task / delete task / share task with another user, who has account.<br />
 Every task has title / priority / deadline / users who can see or edit task / status.<br />
 There are also sign in and sign up form.<br />
 <br />
@@ -13,9 +11,10 @@ User: admin@gmail.com, Password: drewaq
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run dev`
 
 Runs the app in the development mode.<br />
+Start server on port 5000.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
