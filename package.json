@@ -19,15 +19,14 @@
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "config": "^3.3.1",
-    "express": "^4.17.1",
-    "express-validator": "^6.5.0",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.9.18",
-    "path-to-regexp": "^2.4.0"
+    "config": "^3.3.12",
+    "express": "^4.22.2",
+    "express-validator": "^6.15.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^6.13.11"
   },
   "devDependencies": {
-    "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4"
+    "concurrently": "^9.2.4",
+    "nodemon": "^3.1.14"
   }
 }
