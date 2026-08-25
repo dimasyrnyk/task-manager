@@ -47,5 +47,12 @@
     "@babel/core": "^7.29.7",
     "ajv": "^8.20.0",
     "gh-pages": "^6.3.0"
+  },
+  "overrides": {
+    "underscore": "^1.13.8",
+    "postcss": "^8.5.23",
+    "serialize-javascript": "^7.0.5",
+    "uuid": "^11.1.1",
+    "nth-check": "^2.1.1"
   }
 }
